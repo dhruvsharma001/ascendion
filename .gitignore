@@ -1,0 +1,15 @@
+# Logs
+logs/
+*.log
+*.log.*
+
+
+# Node.js / npm
+/node_modules
+
+
+# Ignore .env
+src/config/.env
+
+# Build output
+/dist
