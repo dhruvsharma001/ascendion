@@ -1,20 +1,14 @@
 # Please add .env with details in config dir. 
 
 API: "localhost:3000/api/v1/movies?year=1988"
-
-commands: npm start and npm test
-
-.env file structure: (location src/config/.env)
+# Commands : npm start , npm test 
+# Environment variable path and format : 
+(location src/config/.env)
 
 MOVIE_DB_API_KEY=API_Read_Access_Token
 PORT=3000
 LOG_LEVEL=info
 
-
-
-MOVIE_DB_API_KEY=api_key
-PORT=3000
-LOG_LEVEL=info 
 
 # Take Home Coding
 This project is a take home asssessment for NodeJS Coding.
