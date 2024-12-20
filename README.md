@@ -1,6 +1,7 @@
-# Please add .env with details in config dir. 
+# Please add .env with details in config dir.(/src/config/.env)
 
-API: "localhost:3000/api/v1/movies?year=1988"
+API endpoint : "localhost:3000/api/v1/movies?year=1988"
+
 # Commands : npm start , npm test 
 # Environment variable path and format : 
 (location src/config/.env)
