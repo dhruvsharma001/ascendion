@@ -4,8 +4,7 @@
   "description": "This project is a take home asssessment for NodeJS Coding.",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/app.js",
-    "build": "tsc",
+    "start": "ts-node src/app.ts",
     "test": "jest",
     "test:watch": "jest --watch"
   },
