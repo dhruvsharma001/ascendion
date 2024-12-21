@@ -34,7 +34,8 @@ export const getEditors = async (movieId: number): Promise<string[]> => {
     } else {
       logger.error(`Unknown error fetching credits for movie ID ${movieId}`);
     }
-    throw new Error('Failed to fetch credits for movie ID');
+    // throw new Error('Failed to fetch credits for movie ID');
+    return []; // works even if api fails .. 
   }
 };
 
